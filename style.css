@@ -6,20 +6,26 @@ body {
 }
 
 .catalogue {
-    max-width: 800px;
+    max-width: 200px;
     margin: 0 auto;
 }
 
 .exercise {
-    margin-bottom: 20px;
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
 }
 
 .exercise p {
     margin: 0;
+    margin-left: 20px;
     font-weight: bold;
     flex: 1;
+    font-size: 18px;
 }
 
 .gif-container {
